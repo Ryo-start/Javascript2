@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>CALCULATOR</title>
+</head>
+<body class = "content-all">
+  <form name="calculator"> 
+    <table class = "table-all">
+      <!---液晶画面--->
+        <tr>
+            <td colspan="4">
+            <input type="text" class="display" name="display" value="" disabled>
+            </td>
+        </tr>
+
+        <tr >
+            <td><input type="button" value="7" ></td>
+            <td><input type="button" value="8" ></td>
+            <td><input type="button" value="9" ></td>
+            <td><input type="button" value="+" class="operator" name="div_btn"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="4" ></td>
+            <td><input type="button" value="5" ></td>
+            <td><input type="button" value="6" ></td>
+            <td><input type="button" value="-" class="operator" name="multi_btn" ></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="1" ></td>
+            <td><input type="button" value="2" ></td>
+            <td><input type="button" value="3" ></td>
+            <td><input type="button" value="*" class="operator" ></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="0" ></td>
+            <td><input type="button" value="00"></td>
+            <td><input type="button" value="." class="equal" ></td>
+            <td><input type="button" value="/" class="operator" ></td>
+        </tr>
+
+        <td colspan="2">
+            <input type="button" value="AC" class="AC" >
+        </td>
+        <td colspan="2">
+            <input type="button" value="=" class="total" >
+        </td>
+      </tr>
+
+    </table>
+    <script src="main.js"></script>
+  </form>
+</body>
+</html>
